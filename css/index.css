@@ -1,0 +1,757 @@
+@import url("https://api.fontshare.com/v2/css?f[]=clash-display@200,400,700,500,600,1,300&display=swap");
+@import url('https://fonts.cdnfonts.com/css/satoshi');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Satoshi', sans-serif;
+
+    /* font-family: 'Clash Display', sans-serif; */
+
+}
+
+header .top-nav {
+    height: 60px;
+    line-height: 60px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.10);
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.top-nav img {
+    cursor: pointer;
+}
+
+.logo {
+    font-family: 'Clash Display', sans-serif;
+    color: #22202E;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-nav ul {
+    margin-top: 15px
+}
+
+.main-nav ul li {
+    display: inline-block;
+    text-align: center;
+    margin-right: 30px;
+
+}
+
+.nav-links {
+    color: #726E8D;
+    font-family: Satoshi;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.open {
+    left: 0 !important
+}
+
+.section1-headline {
+    color: var(--white, #FFF);
+    /* Headings / H2 */
+    font-family: Clash Display;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    margin-bottom: 40px;
+    width: 80%;
+    /* 44.8px */
+}
+
+.section1 .container .col-md-7 {
+    background: var(--dark-primary, #2A254B);
+    padding: 60px 80px 0px 50px
+}
+
+.section1-btn {
+    color: #FFF;
+    font-family: Satoshi !important;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    background: rgba(249, 249, 249, 0.15);
+    padding: 13px 28px;
+    border: none;
+    margin-bottom: 200px
+}
+
+.section1-text {
+    color: #FFF;
+    font-family: Satoshi;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 27px */
+}
+
+.section1 {
+    margin-top: 30px;
+    margin-bottom: 40px
+}
+
+
+
+.section2-headline {
+    color: var(--dark-primary, #2A254B);
+    font-family: Clash Display;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    margin-top: 80px;
+    margin-bottom: 40px
+}
+
+.section2-card-title {
+    color: var(--dark-primary, #2A254B);
+    font-family: Clash Display;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    margin-top: 15px
+}
+
+.section2-card-text {
+    color: var(--dark-primary, #2A254B);
+    font-family: Satoshi;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 24px */
+}
+
+.section2-card {
+    padding: 10px
+}
+
+.section1-btn-2 {
+    width: 100%;
+}
+
+.section3-card-title {
+    color: var(--dark-primary, #2A254B);
+    /* Headings / H4 */
+    font-family: "Clash Display";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    /* 28px */
+}
+
+.section3-card-sub-title {
+    color: var(--dark-primary, #2A254B);
+    font-family: Satoshi;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 27px */
+}
+
+.view-collection-btn {
+    color: #2A254B;
+    font-family: Satoshi;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    padding: 13px 32px;
+    border: none;
+    background: var(--light-grey, #F9F9F9);
+    /* 24px */
+}
+
+.section3 {
+    margin-top: 100px
+}
+
+.section3-card {
+    margin-bottom: 30px
+}
+
+.swiper-slide-3 {
+
+    margin-left: -100px !important;
+
+}
+
+.swiper-slide-4 {
+    margin-left: -100px !important
+}
+
+.section4-headline {
+    color: #2A254B;
+    font-family: "Clash Display";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    margin-bottom: 20px;
+    /* 44.8px */
+}
+
+.section4-card-title {
+    color: var(--Dark-Primary, #2A254B);
+    font-family: "Clash Display";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    margin-top: 25px;
+    /* 28px */
+}
+
+.section4-card-sub-title {
+    color: var(--Dark-Primary, #2A254B);
+    font-family: Satoshi;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 27px */
+}
+
+.section4 {
+    margin-top: 120px
+}
+
+.section5-headline {
+    color: var(--Dark-Primary, #2A254B);
+    font-family: Clash Display;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+
+.section5-text {
+    color: var(--Dark-Primary, #2A254B);
+    font-family: Satoshi;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin-bottom: 55px;
+    padding: 0 60px
+}
+
+.section5 .form-container {
+    padding: 0 50px;
+}
+
+.section5 .form-container form input {
+    display: flex;
+    align-items: center;
+    flex: 1 0 0;
+    align-self: stretch;
+    background: var(--Light-Grey, #F9F9F9);
+
+
+}
+
+.section5 .form-container form input::placeholder {
+    opacity: 0.2;
+    color: var(--Dark-Primary, #2A254B);
+    font-family: Satoshi;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.section5 .form-container form button {
+    color: var(--White, #FFF);
+    font-family: Satoshi;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    display: flex;
+    padding: 14px 28px;
+    align-items: flex-start;
+    gap: 10px;
+    background: var(--Dark-Primary, #2A254B);
+}
+
+.section5 {
+    margin-top: 100px;
+    background: var(--Light-Grey, #F9F9F9);
+    /* margin-bottom: 240px; */
+    padding-top: 50px;
+    padding-bottom: 50px
+}
+
+.section5 .container {
+    background-color: #FFF;
+    padding-top: 70px;
+    padding-bottom: 50px
+}
+
+.section6 {
+    overflow: hidden;
+}
+
+.section6-headline {
+    color: #2A254B;
+    font-family: Clash Display;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    margin-bottom: 20px
+        /* 33.6px */
+}
+
+.section6-text {
+    color: #505977;
+    font-family: Satoshi;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.get-in-touch-button {
+    color: #2A254B;
+    font-family: Satoshi;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    padding: 13px 32px;
+    border: none;
+    background: var(--light-grey, #F9F9F9);
+    margin-top: 130px;
+    /* 24px */
+}
+
+.section6 .row .first-col {
+    padding: 70px 80px 20px 80px
+}
+
+footer{
+    background: var(--Dark-Primary, #2A254B);
+    /* margin-top:-10px */
+}
+
+footer  form button {
+    color: #2A254B;
+    font-family: Satoshi;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    display: flex;
+    padding: 14px 28px;
+    align-items: flex-start;
+    gap: 10px;
+    background: var(--Dark-Primary, #fff);
+    border:1px solid #fff
+
+}
+
+footer form input {
+    background: rgba(255, 255, 255, 0.15) !important;
+    border:none !important;
+    border-radius: 0 !important;
+}
+
+footer form input::placeholder{
+    color: var(--White, #FFF) !important;
+    font-family: Satoshi;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+}
+
+
+footer .footer-title{
+    color: var(--White, #FFF);
+    font-family: "Clash Display";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+footer .footer-links{
+    color: var(--White, #FFF);
+    font-family: Satoshi;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+
+}
+
+footer .copyright{
+    color: var(--White, #FFF);
+    font-family: Satoshi;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+footer .footer-section2 .container{
+     padding:15px 20px 15px  20px !important;
+     /* border-top:2px solid #4E4D93; */
+     /* margin-left:100px;
+     margin-right:100px */
+}
+
+footer .footer-section1 .container{
+    padding:60px 20px 30px 20px !important;
+    /* margin-left:100px;
+    margin-right:100px */
+}
+
+footer .footer-section1 p{
+    margin-top:-10px
+}
+
+footer .footer-section1 .footer-title{
+    margin-bottom: 20px;
+}
+
+.footer-line-between{
+    border-top:2px solid #4E4D93;
+    /* width: 1280px; */
+
+}
+
+
+
+
+@media screen and (max-width:1399.20px) {
+    .section1-btn {
+
+        margin-bottom: 100px !important
+    }
+
+
+}
+
+/* @media screen and (max-width: 1399.20px) and (min-width: 1199.20px) {
+    .footer-line-between {
+         
+        width: 1100px !important;
+    }
+} */
+
+/* @media screen and (max-width: 1199.20px) and (min-width: 991.20px) {
+    .footer-line-between {
+        
+        width: 920px !important;
+    }
+} */
+
+
+@media screen and (max-width:1199.20px) {
+    .section1-btn {
+
+        margin-bottom: 25px !important
+    }
+
+    .get-in-touch-button {
+        margin-top: 8%
+    }
+
+    .section6 .first-col {
+        padding-top: 50px !important
+    }
+
+}
+
+/* @media screen and (max-width: 991.20px) and (min-width: 767.20px) {
+    .footer-line-between {
+        width: 680px !important;
+    }
+} */
+ 
+@media screen and (max-width:991.20px) {
+    .section1 .container .col-md-7 {
+
+        padding: 30px 80px 0px 50px
+    }
+
+
+    .section1-headline {
+        color: #FFF;
+        font-family: "Clash Display";
+        font-size: 23px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%;
+        width: 100%;
+        margin-bottom: 10px;
+
+    }
+
+
+    .section1-text {
+        color: #FFF;
+        /* Body / Large */
+        font-family: Satoshi;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        /* 27px */
+    }
+
+    .section1-btn {
+
+        padding: 10px 22px;
+        margin-bottom: 15px !important
+    }
+
+    .section2 .first-row {
+        text-align: left !important;
+    }
+
+    .section2 .row {
+        padding-left: 12px;
+        padding-right: 12px
+    }
+
+    .section6 .first-col {
+        padding-top: 50px !important
+    }
+
+    .section6 .first-col {
+        padding: 80px 50px 50px 50px !important
+    }
+   footer .footer-section1 .third-col{
+    margin-top:30px;
+    margin-bottom:20px
+   }
+
+   footer .footer-section1 .container{
+    padding-bottom:20px !important
+   }
+
+   footer .footer-section2 .last-col{
+    display: none !important;
+   }
+
+ footer .footer-section2 .first-col{
+     text-align: center !important;
+   
+   }
+
+}
+
+
+@media screen and (max-width:767.20px) {
+
+    .top-nav-1st-item,
+    .top-nav-3rd-item {
+        display: none !important;
+    }
+
+    .top-nav-4th-item {
+        display: block !important;
+    }
+
+    .main-nav ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        top: 30px;
+        left: 0;
+        text-align: center;
+        transition: all .5s;
+        padding-top: 50px;
+        left: -100%;
+        background-color: #FFF !important;
+
+    }
+
+    .main-nav ul li {
+        display: block !important;
+        margin-top: 30px
+    }
+
+    .main-nav ul li a {
+        font-size: 26px;
+    }
+
+    .main-nav ul li a:hover {
+        color: rgb(167, 167, 167)
+    }
+
+    .section1 .container .col-md-5 {
+        display: none;
+    }
+
+    .section1 .container {
+
+        max-width: 100%;
+        padding: 0 !important
+    }
+
+
+    .section1 {
+        padding: 0 !important;
+        margin: 0 !important
+    }
+
+    .section1 .row {
+        padding: 0 !important
+    }
+
+    .section1-headline {
+        color: var(--white, #FFF);
+        font-family: Clash Display;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%;
+        /* 44.8px */
+    }
+
+    .section1-text {
+        color: var(--white, #FFF);
+        /* Body / Large */
+        font-family: Satoshi;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        /* 27px */
+        margin-top: 70px;
+        margin-bottom: 40px
+    }
+
+    .section1-btn-1 {
+        display: none;
+    }
+
+    .section1-btn-2 {
+        display: block !important;
+        /* margin-bottom: 20px !important */
+    }
+
+    .section1 .container .col-md-7 {
+
+        padding: 35px 30px 10px 30px
+    }
+
+    .section2 .container {
+        max-width: 100% !important;
+    }
+
+    .section3 .container {
+        padding-left: 20px;
+        padding-right: 15px;
+    }
+
+    .view-collection-btn {
+        width: 100%;
+    }
+
+    .section4 .container {
+        padding-left: 30px;
+        padding-right: 30px
+    }
+
+    .section5-headline {
+        color: #2A254B;
+        font-family: Clash Display;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%;
+    }
+
+    .section5-text {
+        color: var(--Dark-Primary, #2A254B);
+        font-family: Satoshi;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        /* 21px */
+    }
+
+    .section5 .container .row .col-lg-6 {
+        text-align: left !important;
+    }
+
+    .section5-text {
+        padding: 0
+    }
+
+    .section5 .form-container {
+        padding: 0
+    }
+
+    .section5 .container {
+        padding: 0 15px !important
+    }
+
+    .section5 {
+        background-color: #FFF !important;
+    }
+
+    .section6 .first-col {
+        padding: 80px 40px 50px 40px !important
+    }
+  footer .footer-section1 .container, footer .footer-section2 .container{
+       padding-left:25px !important;
+       padding-right:25px !important
+    } 
+
+   /* footer .footer-section1 .sec-col{
+    padding-left:40px
+   } */
+
+
+
+}
+
+
+@media screen and (max-width:500px) {
+
+    .get-in-touch-button {
+        width: 100% !important;
+    }
+
+}
